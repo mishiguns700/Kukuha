@@ -55,7 +55,8 @@ async def no(update, contex):
     # Все ответы рандомизируются
     await update.message.reply_text(random.choice(noo))
     await update.message.reply_text("Если Вы затрудняетесь в выборе ответа, нажмите /help")
-    await update.message.reply_text("Также Вы можете узнать информацию об авторах, нажав /authors")
+    await update.message.reply_text("Также Вы можете узнать информацию об авторах, нажав /authors",
+                                    reply_markup=markup3)
 
 
 async def help_command(update, context):
