@@ -74,8 +74,8 @@ async def help_command(update, context):
 
 async def authors(update, context):
     # Информация об авторах
-    await update.message.reply_text("Авторами этого чуда являютя Михаил Киршенман (или же бог) и Александр Фомичев "
-                                    "(рандомный чел), которые хотят чтобы им поставили побольше баллов.")
+    await update.message.reply_text("Авторами этого чуда являютя Михаил Киршенман и Александр Фомичев"
+                                    ", которые хотят чтобы им поставили побольше баллов.")
     await update.message.reply_text("Готовы ли вы теперь пройти тест? /yes или /no")
     await update.message.reply_text("Если Вы затрудняетесь в выборе ответа, нажмите /help", reply_markup=markup5)
 
